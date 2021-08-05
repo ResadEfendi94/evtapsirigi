@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #81cdd1;
+    position: relative;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+}
+
+
+/* umumi css start */
+
+#umumi {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 500px;
+}
+
+
+/* ilk css start */
+
+#ilk h1 {
+    font: 800 24px 'Open Sans', sans-serif;
+    line-height: 45px;
+    color: #ffffff;
+    text-align: center;
+    filter: drop-shadow(0.5px 0.866px 0px #cd502c);
+    padding: 40px 0;
+}
+
+#ilk {
+    background-color: #fc6539;
+    border-radius: 5px 5px 0 0;
+}
+
+#ilk input {
+    font: 400 24px 'Open Sans', sans-serif;
+    line-height: 45px;
+    color: #ffffff;
+    width: 100%;
+    height: 70px;
+    background-color: #ba3c24;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+#ilk input:nth-child(1) {
+    margin-bottom: 25px;
+}
+
+#ilk input:nth-child(2) {
+    margin-bottom: 50px;
+}
+
+#ilk input::placeholder {
+    color: #fff;
+}
+
+
+/* son css */
+
+#son {
+    background-color: #b93b23;
+    border-radius: 0 0 5px 5px;
+}
+
+#son a {
+    font: 400 24px 'Open Sans', sans-serif;
+    line-height: 45px;
+    color: #ffffff;
+    text-decoration: none;
+    padding-right: 55px;
+}
+
+#son button {
+    font: 400 24px 'Open Sans', sans-serif;
+    line-height: 45px;
+    color: #ba3c24;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 80px;
+    margin: 50px 0;
+}
